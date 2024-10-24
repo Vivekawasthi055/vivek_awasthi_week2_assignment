@@ -1,0 +1,41 @@
+/* ViewEntries.css */
+
+.view-entries {
+  padding: 20px;
+}
+
+.view-entries h1,
+.no-entry {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.view-entries ol {
+  padding: 0;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.view-entries li {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.view-entries button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-entries .edit-btn {
+  margin-right: 20px;
+}
+
+.view-entries button:hover {
+  background-color: #c82333;
+}
